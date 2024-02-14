@@ -11,11 +11,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Build
 
 `pnpm build`
-
-### Stack
-
-React
-Next.js
-TypeScript
-Tailwind
-pnpm
