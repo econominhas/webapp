@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"formulahendry.auto-rename-tag",
+		"streetsidesoftware.code-spell-checker-portuguese-brazilian",
+		"streetsidesoftware.code-spell-checker",
+		"naumovs.color-highlight",
+		"editorconfig.editorconfig",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"visualstudioexptteam.vscodeintellicode",
+		"irongeek.vscode-env",
+		"dbaeumer.vscode-eslint"
+	]
+}

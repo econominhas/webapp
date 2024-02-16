@@ -1,3 +1,34 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": ["@rocketseat/eslint-config/next", "next/core-web-vitals"],
+	"plugins": ["simple-import-sort"],
+	"rules": {
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error",
+		"prettier/prettier": [
+			"error",
+			{
+				"trailingComma": "all",
+				"tabWidth": 2,
+				"useTabs": true,
+				"singleQuote": false,
+				"arrowParens": "avoid",
+				"semi": true,
+				"bracketSpacing": true,
+				"endOfLine": "lf",
+				"quoteProps": "consistent",
+				"overrides": [
+					{
+						"files": "*.yml",
+						"options": {
+							"useTabs": false
+						}
+					}
+				]
+			}
+		]
+	},
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": "latest"
+	}
 }
